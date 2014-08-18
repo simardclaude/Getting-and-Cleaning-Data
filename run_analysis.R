@@ -44,8 +44,8 @@ run_analysis<- function(){
     print("- Step 5: DataSet_mean_peractivityID_subjectID.csv")
     
     ## Write the resulting data set to files
-    write.csv(ds_mean_std,"DataSet_Mean_STD.csv", row.names=FALSE)
-    write.csv(dstidy, "DataSet_mean_peractivityID_subjectID.csv", row.names=FALSE)
+    write.csv(ds_mean_std,"DataSet_Mean_STD.txt", row.names=FALSE)
+    write.csv(dstidy, "DataSet_mean_peractivityID_subjectID.txt", row.names=FALSE)
     
     ##Return the tidy data set
     invisible(dstidy)
