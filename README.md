@@ -1,4 +1,4 @@
-GRunning the script
+Running the script
 
 Clone this repository
 Download the data set and extract. It should result in a UCI HAR Dataset folder that has all the files in the required structure.
